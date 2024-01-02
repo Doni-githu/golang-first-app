@@ -1,0 +1,52 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Compiled Go files
+*.exe
+*.test
+*.prof
+
+# Compiled C++ files
+*.cpp
+*.cc
+*.cxx
+*.c++
+*.h
+*.hh
+*.hxx
+*.hpp
+
+# Generated files
+*.gen.go
+
+# Go generated files
+/_obj/
+/_test/
+/_testmain.go
+/cover.*
+/.*.exe
+/.*.prof
+/.*.test
+/vendor/
+
+# Go tools
+/bin/
+/pkg/
+
+# IDE files
+.idea/
+.vscode/
+
+# Dependency directories
+/vendor/
+/!vendor/vendor.json
+
+# Build output
+/build/
+/dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
